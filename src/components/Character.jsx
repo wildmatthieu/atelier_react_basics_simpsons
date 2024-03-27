@@ -2,10 +2,6 @@ import PropTypes from 'prop-types';
 
 function Character({firstname, lastname, imagePath})
 {
-    // en php 
-    // $coucou: int = 42 // <- typé car on précise que c'est un int à sa création
-
-    console.log(imagePath);
 
     return (
         <div>
